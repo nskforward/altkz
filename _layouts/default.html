@@ -11,8 +11,8 @@
     <title>{{ page.title }}</title>
 </head>
 <body>
-{% include navigation.html %}
 <div class="container pb-4">
+    {% include navigation.html %}
     {{ content }}
     <br>
     <hr>
@@ -97,6 +97,7 @@
         </div>
     </div>
 </div>
+<script defer src="/assets/js/bootstrap.min.js"></script>
 {% include metrics.html %}
 </body>
 </html>
